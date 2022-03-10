@@ -152,7 +152,7 @@ def decrypt(text, key):
 
 
 if __name__ == '__main__':
-    for i in range(10):
+    for i in range(1):
         random.seed(i)
         key = random.randint(0, 2**16-1)
         pairs = generate_text_pairs(8000, key)
